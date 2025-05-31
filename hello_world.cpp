@@ -2,6 +2,8 @@
 using namespace std;
 
 in main(){
-	cout << "hello world!" << endl;
+	string name;
+	cout << "Enter your name: "; cin >> name;
+	cout << "hello world from @" << name << endl;
 	return 0;
 }
