@@ -1,9 +1,12 @@
 #include <iostream>
-using namespace std;
+#include <string>
 
-in main(){
-	string name;
-	cout << "Enter your name: "; cin >> name;
-	cout << "hello world from @" << name << endl;
+int main(){
+	std::string name;
+	// создание переменной для хранения имени
+	std::cout << "Enter your name: "; std::cin >> name;
+	// ввод значения переменной
+	std::cout << "hello world from @" << name << endl;
+	// вывод текста на экран
 	return 0;
 }
