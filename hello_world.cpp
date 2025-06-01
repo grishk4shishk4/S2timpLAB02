@@ -2,11 +2,11 @@
 #include <string>
 
 int main(){
+	// Declare a variable to store user's name
 	std::string name;
-	// создание переменной для хранения имени
+	// Promt the user for his name and read it
 	std::cout << "Enter your name: "; std::cin >> name;
-	// ввод значения переменной
+	// Pring a greeting message
 	std::cout << "hello world from @" << name << endl;
-	// вывод текста на экран
 	return 0;
 }
